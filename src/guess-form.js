@@ -31,6 +31,7 @@ export default class GuessForm extends React.Component {
           placeholder="1 - 20"
           value={this.state.value}
           onChange={this.handleChange}
+          required
         />
         <button
           type="submit"
